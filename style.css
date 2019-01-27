@@ -1,0 +1,27 @@
+#botao-1{
+	border: 2px solid blue;
+	background-color: white;
+	font-size: 2em;
+	margin: 2vh;
+	padding: 2vw;
+	border-radius: 8px;
+	transition: background-color .2s ease;
+}
+#botao1 button:hover{
+	background-color: blue;
+}
+
+#botao-2{
+	border: 0;
+	background-color: orange;
+	font-size: 2em;
+	margin: 2vh;
+	padding: 2vw;
+}
+#botao-3{
+	border: 0;
+	background-color: green;
+	font-size: 2em;
+	margin: 2vh;
+	padding: 2vw;
+}
