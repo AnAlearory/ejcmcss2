@@ -1,27 +1,74 @@
 #botao-1{
-	border: 2px solid blue;
-	background-color: white;
-	font-size: 2em;
-	margin: 2vh;
-	padding: 2vw;
-	border-radius: 8px;
-	transition: background-color .2s ease;
+	width: 140px;
+	height: 45px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 500;
+	color: #000;
+	background-color: #fff;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0,0,0,.1);
+	cursor: pointer;
+	outline: none;
+	transition: all 0.3s ease 0s;
 }
-#botao1 button:hover{
-	background-color: blue;
+#botao-1:hover{
+	background-color: #2EE59D;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateY(-7px);
 }
 
 #botao-2{
-	border: 0;
-	background-color: orange;
-	font-size: 2em;
-	margin: 2vh;
-	padding: 2vw;
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 140px;
+	height: 45px;
+	font-size: 15px;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	outline: none;
+	background-color: #2EE59D;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
 }
+#botao-2:hover{
+	background-color: #29CC8C;
+}
+
+#botao-2:active{
+	background-color: #29CC8C;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
 #botao-3{
-	border: 0;
-	background-color: green;
-	font-size: 2em;
-	margin: 2vh;
-	padding: 2vw;
+	width: 140px;
+	height: 45px;
+	background-color: #2EE59D;
+	border: none;
+	color: white;
+	font-size: 15px;
+	opacity: 0.6;
+	transition: 0.3s;
+	text-decoration: none;
+	cursor: pointer;
 }
+#botao-3:hover{
+	opacity: 1;
+	color: black;
+}
+
+body{
+	background-color: #ccccff;
+	padding: 2vh;
+}
+
